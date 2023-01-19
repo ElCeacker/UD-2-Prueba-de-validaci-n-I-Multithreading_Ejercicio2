@@ -13,7 +13,7 @@ public class Mesa {
         }
     }
 
-    public int getMagdalena() {
+    public int getMagdalenas() {
         return TOTAL_MAGDALENAS;
     }
 }
