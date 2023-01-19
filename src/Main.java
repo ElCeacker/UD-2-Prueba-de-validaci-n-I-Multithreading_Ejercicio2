@@ -1,5 +1,5 @@
-import Comensales.Comensal;
-import Mesa.Mesa;
+import comensales.Comensal;
+import mesa.Mesa;
 
 public class Main {
     public static void main(String[] args) {

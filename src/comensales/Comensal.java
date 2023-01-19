@@ -1,6 +1,6 @@
-package Comensales;
+package comensales;
 
-import Mesa.Mesa;
+import mesa.Mesa;
 
 public class Comensal implements Runnable{
 
