@@ -7,7 +7,6 @@ public class Comensal implements Runnable{
     private String name;
     private Mesa mesa;
     private int prioridad;
-    private boolean magdalenas = true;
 
     public Comensal(String name, Mesa mesa, int prioridad) {
         this.name = name;
