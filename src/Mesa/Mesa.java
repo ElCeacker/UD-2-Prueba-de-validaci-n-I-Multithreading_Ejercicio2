@@ -6,11 +6,7 @@ public class Mesa {
     private int magdalenaDefault = 1;
 
     public synchronized void consumirMagdalena() {
-        if (TOTAL_MAGDALENAS <= 0) {
-            System.out.println("Ya no quedan magdalenas");
-        } else {
-            TOTAL_MAGDALENAS -= magdalenaDefault;
-        }
+        TOTAL_MAGDALENAS -= magdalenaDefault;
     }
 
     public int getMagdalenas() {

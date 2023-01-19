@@ -4,7 +4,6 @@ import Mesa.Mesa;
 
 public class Comensal implements Runnable{
 
-
     private String name;
     private Mesa mesa;
     private int prioridad;
@@ -28,8 +27,6 @@ public class Comensal implements Runnable{
                 Thread.sleep(10000);
                 System.out.println(this.name + " se ha terminado de comer una magdalena");
             }
-
-            System.out.println("*******Quedan " + mesa.getMagdalenas() + " magdalenas en la mesa*******");
 
         } catch (Exception e) {
             e.printStackTrace();
